@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    background-color: #fff999;
+    min-height: 100vh;
+    display: grid;
+    grid-template: auto 4fr / 1fr 4fr;
+}
+.sidebar {
+    grid-area: 1 / 1 / -1 / -2;
+    background: lightblue;
+}
+.header {
+    grid-area: 1 / 2 / 2 / -1 ;
+    display: grid;
+    height: 100px;
+}
