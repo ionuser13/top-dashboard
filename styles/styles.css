@@ -114,6 +114,22 @@ body {
     height: 6rem;
     border-radius: 50%;
 }
+.buttonsContainer {
+    display: flex;
+    flex: 1.2rem;
+    gap: 2rem;
+    align-items: center;
+}
+.button {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    font-weight: bold;
+    width: 5.6rem;
+    height: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}   
 .mainContent {
     background-color: var(--grey);
 }
