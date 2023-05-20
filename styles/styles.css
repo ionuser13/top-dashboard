@@ -154,7 +154,8 @@ body {
     background-color: var(--white);
     border-left: 8px solid var(--orange);
     border-radius: .4rem;
-    padding: 2rem 1.6rem
+    padding: 2rem 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .descriptionContainer {
     min-height: 100px;
@@ -171,4 +172,40 @@ body {
 }
 .projectActions > i {
     cursor: pointer;
+}
+.announcementsAndTrendingSection {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.6rem;
+}
+.announcements, .profiles {
+    background-color: var(--white);
+    padding: 1.6rem 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: .4rem;
+    margin-top: 1rem;
+}
+.announcementDescription {
+    color: var(--text-gray);
+    font-size: .6rem;
+}
+.separatorContainer {
+    margin: .8rem 0;
+}
+.announcementSeparator {
+    margin: auto 0;
+}
+.profileContainer {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    font-size: .8rem;
+    margin: .8rem 0;
+}
+.profilePictureSmall {
+    height: 2.8rem;
+    border-radius: 50%;
+}
+.occupation {
+    color: var(--text-gray);
 }
